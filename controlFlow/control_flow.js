@@ -40,4 +40,4 @@ switch (userType) {
     default:
         userCategory = "Unknown";
 }
-console.log("UserCategory:", userCategory);
+console.log("User Category:", userCategory);
