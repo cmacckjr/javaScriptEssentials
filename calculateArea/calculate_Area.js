@@ -11,6 +11,6 @@ function calculateArea() {
     // number that can be used in mathematical operations
 
     let area = length * width;
-    return document.getElementById("result").innterText = "The area of the rectangle is: ${area}";
+    document.getElementById("result").innerText = `The area of the rectangle is: ${area}`;
     // .innerText is used to modify the text content within the html element
 }
